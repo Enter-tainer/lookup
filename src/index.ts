@@ -1,27 +1,27 @@
 import { Command, flags } from '@oclif/command'
+import chalk from 'chalk'
+import cli from 'cli-ux'
+import terminalLink from 'terminal-link'
 
+import getDefination from './api/bing'
 class Lookup extends Command {
   static description = 'describe the command here'
-
   static flags = {
-    // add --version flag to show CLI version
     version: flags.version({ char: 'v' }),
-    help: flags.help({ char: 'h' }),
-    // flag with a value (-n, --name=VALUE)
-    name: flags.string({ char: 'n', description: 'name to print' }),
-    // flag with no value (-f, --force)
-    force: flags.boolean({ char: 'f' }),
+    help: flags.help({ char: 'h' })
   }
-
-  static args = [{ name: 'file' }]
+  static args = [{ name: 'word' }]
 
   async run() {
-    const { args, flags } = this.parse(Lookup)
-
-    const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/index.ts`)
-    if (args.file && flags.force) {
-      this.log(`you input --force and --file: ${args.file}`)
+    const { args } = this.parse(Lookup)
+    cli.action.start('Querying')
+    const res = await getDefination(args.word)
+    cli.action.stop()
+    this.log(chalk.bgKeyword('teal').white(` ${res.word} `))
+    this.log(chalk.bgCyan.white(' AmE: ') + terminalLink(` /${res.pronunciation.AmE}/`, res.pronunciation.AmEmp3))
+    this.log(chalk.bgCyan.white(' BrE: ') + terminalLink(` /${res.pronunciation.BrE}/`, res.pronunciation.BrEmp3))
+    for (const i of res.defs) {
+      this.log(chalk.bgKeyword('midnightblue').white(` ${i.pos} `) + ` ${i.def} `)
     }
   }
 }
