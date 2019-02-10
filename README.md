@@ -19,8 +19,8 @@ look a word in the dictionary
 <!-- usage -->
 ```sh-session
 $ npm install -g @mgtd/lookup
-$ lookup COMMAND
-running command...
+$ lookup WORD
+Querying...
 $ lookup (-v|--version|version)
 @mgtd/lookup/0.2.0 linux-x64 node-v11.6.0
 $ lookup --help [COMMAND]
