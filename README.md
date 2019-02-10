@@ -10,7 +10,7 @@ look a word in the dictionary
 [![Codecov](https://codecov.io/gh/Enter-tainer/lookup/branch/master/graph/badge.svg)](https://codecov.io/gh/Enter-tainer/lookup)
 [![Downloads/week](https://img.shields.io/npm/dw/@mgtd/lookup.svg)](https://npmjs.org/package/lookup)
 [![License](https://img.shields.io/npm/l/@mgtd/lookup.svg)](https://github.com/Enter-tainer/lookup/blob/master/package.json)
-
+![demo](examples/demo.svg)
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
