@@ -5,11 +5,11 @@ look a word in the dictionary
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Version](https://img.shields.io/npm/v/lookup.svg)](https://npmjs.org/package/lookup)
+[![Version](https://img.shields.io/npm/v/@mgtd/lookup.svg)](https://www.npmjs.com/package/@mgtd/lookup)
 [![CircleCI](https://circleci.com/gh/Enter-tainer/lookup/tree/master.svg?style=shield)](https://circleci.com/gh/Enter-tainer/lookup/tree/master)
 [![Codecov](https://codecov.io/gh/Enter-tainer/lookup/branch/master/graph/badge.svg)](https://codecov.io/gh/Enter-tainer/lookup)
-[![Downloads/week](https://img.shields.io/npm/dw/lookup.svg)](https://npmjs.org/package/lookup)
-[![License](https://img.shields.io/npm/l/lookup.svg)](https://github.com/Enter-tainer/lookup/blob/master/package.json)
+[![Downloads/week](https://img.shields.io/npm/dw/@mgtd/lookup.svg)](https://npmjs.org/package/lookup)
+[![License](https://img.shields.io/npm/l/@mgtd/lookup.svg)](https://github.com/Enter-tainer/lookup/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -18,11 +18,11 @@ look a word in the dictionary
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g lookup
+$ npm install -g @mgtd/lookup
 $ lookup COMMAND
 running command...
 $ lookup (-v|--version|version)
-lookup/0.1.0 linux-x64 node-v11.6.0
+@mgtd/lookup/0.1.0 linux-x64 node-v11.6.0
 $ lookup --help [COMMAND]
 USAGE
   $ lookup COMMAND

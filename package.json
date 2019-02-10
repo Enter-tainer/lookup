@@ -1,5 +1,5 @@
 {
-  "name": "lookup",
+  "name": "@mgtd/lookup",
   "description": "look a word in the dictionary",
   "version": "0.1.0",
   "author": "Margatroid",
