@@ -17,11 +17,11 @@ class Lookup extends Command {
     cli.action.start('Querying')
     const res = await getDefination(args.word)
     cli.action.stop()
-    this.log(chalk.bgKeyword('teal').white(` ${res.word} `))
-    this.log(chalk.bgCyan.white(' AmE: ') + terminalLink(` /${res.pronunciation.AmE}/`, res.pronunciation.AmEmp3))
-    this.log(chalk.bgCyan.white(' BrE: ') + terminalLink(` /${res.pronunciation.BrE}/`, res.pronunciation.BrEmp3))
+    this.log(chalk.bgHex('#0393a0').white(` ${res.word} `))
+    this.log(chalk.bgBlue.white(' AmE: ') + terminalLink(` /${res.pronunciation.AmE}/`, res.pronunciation.AmEmp3))
+    this.log(chalk.bgBlue.white(' BrE: ') + terminalLink(` /${res.pronunciation.BrE}/`, res.pronunciation.BrEmp3))
     for (const i of res.defs) {
-      this.log(chalk.bgKeyword('midnightblue').white(` ${i.pos} `) + ` ${i.def} `)
+      this.log(chalk.bgHex('#04438c').white(` ${i.pos} `) + ` ${i.def} `)
     }
   }
 }
