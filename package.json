@@ -1,7 +1,7 @@
 {
   "name": "lookup",
   "description": "look a word in the dictionary",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Margatroid",
   "bin": {
     "lookup": "./bin/run"

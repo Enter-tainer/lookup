@@ -22,7 +22,7 @@ $ npm install -g lookup
 $ lookup COMMAND
 running command...
 $ lookup (-v|--version|version)
-lookup/0.0.0 linux-x64 node-v11.6.0
+lookup/0.1.0 linux-x64 node-v11.6.0
 $ lookup --help [COMMAND]
 USAGE
   $ lookup COMMAND
@@ -31,28 +31,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`lookup hello [FILE]`](#lookup-hello-file)
 * [`lookup help [COMMAND]`](#lookup-help-command)
-
-## `lookup hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ lookup hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ lookup hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/Enter-tainer/lookup/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `lookup help [COMMAND]`
 
