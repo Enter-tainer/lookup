@@ -3,13 +3,12 @@ lookup
 
 look a word in the dictionary
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
+[![License](https://img.shields.io/npm/l/@mgtd/lookup.svg)](https://github.com/Enter-tainer/lookup/blob/master/package.json) [![Greenkeeper badge](https://badges.greenkeeper.io/Enter-tainer/lookup.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Version](https://img.shields.io/npm/v/@mgtd/lookup.svg)](https://www.npmjs.com/package/@mgtd/lookup)
 [![CircleCI](https://circleci.com/gh/Enter-tainer/lookup/tree/master.svg?style=shield)](https://circleci.com/gh/Enter-tainer/lookup/tree/master)
 [![Codecov](https://codecov.io/gh/Enter-tainer/lookup/branch/master/graph/badge.svg)](https://codecov.io/gh/Enter-tainer/lookup)
-[![Downloads/week](https://img.shields.io/npm/dw/@mgtd/lookup.svg)](https://npmjs.org/package/@mgtd/lookup)
-[![License](https://img.shields.io/npm/l/@mgtd/lookup.svg)](https://github.com/Enter-tainer/lookup/blob/master/package.json) [![Greenkeeper badge](https://badges.greenkeeper.io/Enter-tainer/lookup.svg)](https://greenkeeper.io/)
+
 ![demo](examples/demo.svg)
 <!-- toc -->
 * [Usage](#usage)
