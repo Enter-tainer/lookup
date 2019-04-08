@@ -27,7 +27,7 @@
     "@oclif/tslint": "^3",
     "@types/chai": "^4",
     "@types/mocha": "^5",
-    "@types/node": "^11.9.0",
+    "@types/node": "^11.13.1",
     "chai": "^4.2.0",
     "commitizen": "^3.0.5",
     "commitlint": "^7.5.1",
