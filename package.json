@@ -14,7 +14,7 @@
     "@oclif/plugin-warn-if-update-available": "^1.5.4",
     "@types/request-promise-native": "^1.0.15",
     "chalk": "^2.4.2",
-    "cli-ux": "^5.1.0",
+    "cli-ux": "^5.2.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "terminal-link": "^1.2.0",
