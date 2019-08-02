@@ -23,7 +23,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
     "@oclif/dev-cli": "^1",
-    "@oclif/test": "^1",
+    "@oclif/test": "^1.2.5",
     "@oclif/tslint": "^3",
     "@types/chai": "^4",
     "@types/mocha": "^5",
