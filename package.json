@@ -12,7 +12,7 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^2",
     "@oclif/plugin-warn-if-update-available": "^1.5.4",
-    "@types/request-promise-native": "^1.0.15",
+    "@types/request-promise-native": "^1.0.17",
     "chalk": "^2.4.2",
     "cli-ux": "^5.1.0",
     "request": "^2.88.0",
